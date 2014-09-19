@@ -122,7 +122,7 @@
 		638F68DA150FC21A0081DEE6 /* MKTClassObjectMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 638F68D6150FC21A0081DEE6 /* MKTClassObjectMock.m */; };
 		638F68DD150FC3210081DEE6 /* MKTClassObjectMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 638F68DC150FC3210081DEE6 /* MKTClassObjectMockTest.m */; };
 		638F68DE150FC3210081DEE6 /* MKTClassObjectMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 638F68DC150FC3210081DEE6 /* MKTClassObjectMockTest.m */; };
-		763694BB1813400100EEB2D5 /* MKTPartialMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 763694B91813400100EEB2D5 /* MKTPartialMock.h */; };
+		763694BB1813400100EEB2D5 /* MKTPartialMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 763694B91813400100EEB2D5 /* MKTPartialMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		763694BC1813400100EEB2D5 /* MKTPartialMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 763694BA1813400100EEB2D5 /* MKTPartialMock.m */; };
 		763694BE1813418500EEB2D5 /* MKTPartialMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 763694BD1813418500EEB2D5 /* MKTPartialMockTest.m */; };
 		763694BF1813418500EEB2D5 /* MKTPartialMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 763694BD1813418500EEB2D5 /* MKTPartialMockTest.m */; };
@@ -448,9 +448,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				085D2FB51351082800EBBE91 /* MKTObjectMock.h in Headers */,
+				763694BB1813400100EEB2D5 /* MKTPartialMock.h in Headers */,
 				0827E83D1352B1AE00C39A57 /* OCMockito.h in Headers */,
 				0827E8421352B6FC00C39A57 /* MKTMockitoCore.h in Headers */,
-				763694BB1813400100EEB2D5 /* MKTPartialMock.h in Headers */,
 				0827E8481352B7BF00C39A57 /* MKTMockingProgress.h in Headers */,
 				0827E8531352BBBC00C39A57 /* MKTVerificationMode.h in Headers */,
 				0827E8561352BC1D00C39A57 /* MKTVerificationData.h in Headers */,
@@ -510,7 +510,7 @@
 			name = libocmockitoTests;
 			productName = libocmockitoTests;
 			productReference = 085D2FFF1351254000EBBE91 /* libocmockitoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		08BDD5A81350C59C00E5A443 /* OCMockito */ = {
 			isa = PBXNativeTarget;
@@ -548,7 +548,7 @@
 			name = OCMockitoTests;
 			productName = OCMockitoTests;
 			productReference = 08BDD5BE1350C59C00E5A443 /* OCMockitoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
